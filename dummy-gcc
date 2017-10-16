@@ -1,0 +1,13 @@
+#!/usr/bin/python3
+
+import subprocess
+import sys
+
+new_argv = []
+for arg in sys.argv[1:]:
+    if arg.endswith(".c") and not "main" in arg:
+        new_argv.append("dummy.c")
+    else:
+        new_argv.append(arg)
+
+subprocess.check_call(new_argv)
