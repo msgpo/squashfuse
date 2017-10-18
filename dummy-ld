@@ -1,9 +1,0 @@
-#!/bin/sh
-
-"$@"
-
-echo "This is a fake go-build, it is not real. We are just doing this " 
-echo "to make this git tree available via `go get`."
-
-
-

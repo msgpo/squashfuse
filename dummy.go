@@ -5,5 +5,4 @@
 package dummy
 
 // #cgo CFLAGS: -wrapper ./dummy-gcc
-// #cgo LDFLAGS: -wrapper ./dummy-ld
 import "C"
