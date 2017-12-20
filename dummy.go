@@ -4,5 +4,3 @@
 
 package dummy
 
-// #cgo CFLAGS: -wrapper ./dummy-gcc
-import "C"
